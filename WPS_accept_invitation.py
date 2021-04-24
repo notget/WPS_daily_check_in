@@ -46,3 +46,4 @@ if SERVER_KEY:
         'desp':'成功邀请%d位好友'%(mk)
     }
     requests.post('https://sc.ftqq.com/%s.send'%(SERVER_KEY.strip()), data = data)
+    
